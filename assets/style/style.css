@@ -97,6 +97,32 @@ footer .map #carte {
   width: 260px;
 }
 
+.title {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.contact {
+  height: 650px;
+  text-align: center;
+  margin-top: 110px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 200px 300px;
+  grid-template-areas: "main1 main2" "main3 main3";
+}
+.contact .telephone {
+  font-size: 1.3rem;
+  grid-area: main1;
+}
+.contact .email {
+  font-size: 1.3rem;
+  grid-area: main2;
+}
+.contact .carte {
+  grid-area: main3;
+}
+
 #tel {
   height: 20px;
 }
