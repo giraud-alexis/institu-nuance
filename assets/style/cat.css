@@ -15,6 +15,7 @@
 }
 
 * {
+  font-family: sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -55,7 +56,7 @@ header h1 {
 }
 .categorie a {
   display: inline-block;
-  transform: translateY(0);
+  transform: translateY(4px);
   transition: 0.8s;
 }
 .categorie a:hover {
@@ -63,7 +64,15 @@ header h1 {
   transition: 0.8s;
 }
 .categorie img {
-  border-radius: 25px;
+  border-radius: 25px 25px 0 0;
+}
+.categorie h2 {
+  background: white;
+  width: 275px;
+  height: 30px;
+  margin: 0 0 0 71px;
+  border-radius: 0 0 10px 10px;
+  z-index: 0;
 }
 
 .sun {
@@ -72,4 +81,72 @@ header h1 {
 .sun img {
   height: 170px;
   width: 150px;
+}
+
+.presentation {
+  display: flex;
+  background: rgb(170, 137, 151);
+  margin: 0 0 0 60px;
+  width: 90%;
+  height: 350px;
+  border-radius: 25px;
+}
+.presentation .img {
+  margin: 55px;
+}
+.presentation .img img {
+  height: 250px;
+  border-radius: 25px;
+}
+.presentation .detail {
+  margin-top: 55px;
+}
+.presentation .detail h2 {
+  margin-top: 30px;
+}
+.presentation .detail .temp {
+  display: flex;
+  margin: 30px 0 0 0;
+}
+.presentation .detail .temp img {
+  height: 25px;
+}
+
+footer {
+  background: rgb(159, 125, 140);
+  display: flex;
+  justify-content: space-around;
+  height: 250px;
+  text-align: center;
+  margin-top: 50px;
+}
+footer .horaire h3 {
+  font-size: 1.8rem;
+  margin: 20px 0 55px 0;
+  color: white;
+}
+footer .horaire h4 {
+  margin-top: 15px;
+  color: white;
+}
+footer .adresse {
+  width: 25%;
+  margin: 0 0 0 25px;
+}
+footer .adresse h3 {
+  font-size: 1.8rem;
+  margin: 20px 0 55px 0;
+  color: white;
+}
+footer .adresse h4 {
+  margin-top: 15px;
+  color: white;
+}
+footer .map {
+  width: 25%;
+}
+footer .map #carte {
+  padding-top: 20px;
+  height: 230px;
+  width: 260px;
 }/*# sourceMappingURL=cat.css.map */
