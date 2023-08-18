@@ -28,7 +28,11 @@ header nav ul li {
 }
 header h1 {
   text-align: center;
-  margin: 100px 0;
+  margin: 80px 0;
+  color: rgb(102, 82, 93);
+}
+header #hello {
+  font-style: oblique;
 }
 
 .presentation {
@@ -112,6 +116,7 @@ footer .map #carte {
   grid-template-areas: "main1 main2" "main3 main3";
 }
 .contact .telephone {
+  padding-top: 0;
   font-size: 1.3rem;
   grid-area: main1;
 }
@@ -137,4 +142,8 @@ footer .map #carte {
 
 #acc {
   height: 20px;
+}
+
+.title h2 {
+  margin: 50px;
 }/*# sourceMappingURL=style.css.map */

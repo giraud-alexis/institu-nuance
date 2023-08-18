@@ -60,13 +60,19 @@ header h1 {
   transition: 0.8s;
 }
 .categorie1 a:hover {
-  transform: translateY(-5px);
+  transform: translateY(-15px);
+  transition: 0.6s;
+}
+.categorie1 a:hover img {
+  border-radius: 25px 25px 25px 25px;
+  box-shadow: 15px -10px rgba(182, 128, 151, 0.418);
   transition: 0.6s;
 }
 .categorie1 img {
   height: 160px;
   width: 290px;
   border-radius: 25px 25px 0 0;
+  transition: 0.6s;
   z-index: 1;
 }
 .categorie1 h2 {
