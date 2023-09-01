@@ -45,7 +45,7 @@ header nav ul li {
 }
 header h1 {
   text-align: center;
-  margin: 100px 0;
+  margin: 130px 0;
 }
 
 .categorie {
@@ -78,7 +78,7 @@ header h1 {
   background: white;
   width: 275px;
   height: 30px;
-  margin: 0 0 0 70.7px;
+  margin: 0 0 0 123.7px;
   border-radius: 0 0 10px 10px;
   z-index: 0;
 }
@@ -90,7 +90,7 @@ header h1 {
   background: white;
   width: 150px;
   height: 30px;
-  margin: 0 0 0 134px;
+  margin: 0 0 0 186px;
   border-radius: 0 0 10px 10px;
 }
 .sun img {
@@ -101,7 +101,7 @@ header h1 {
 .presentation {
   display: flex;
   background: rgb(170, 137, 151);
-  margin: 0 0 0 60px;
+  margin: 30px 0 0 60px;
   width: 90%;
   height: 350px;
   border-radius: 25px;
@@ -133,7 +133,7 @@ footer {
   justify-content: space-around;
   height: 250px;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 70px;
 }
 footer .horaire h3 {
   font-size: 1.8rem;
@@ -164,4 +164,9 @@ footer .map #carte {
   padding-top: 20px;
   height: 230px;
   width: 260px;
+}
+
+.warning {
+  font-size: 0.9rem;
+  color: rgb(190, 0, 0);
 }/*# sourceMappingURL=cat.css.map */

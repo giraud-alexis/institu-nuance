@@ -79,7 +79,15 @@ header h1 {
   background: white;
   width: 290px;
   height: 30px;
-  margin: 0 0 0 63.5px;
+  margin: 0 0 0 22.4%;
+  border-radius: 0 0 10px 10px;
+  z-index: 0;
+}
+.categorie1 .zone {
+  background: white;
+  width: 290px;
+  height: 60px;
+  margin: 0 0 0 22.4%;
   border-radius: 0 0 10px 10px;
   z-index: 0;
 }/*# sourceMappingURL=epilation.css.map */
